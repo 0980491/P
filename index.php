@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Log In</title>
-  <link rel="shortcut icon" href="/padlock.png">
+  <link rel="shortcut icon" href="img/padlock.png">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet">
-  <link rel="stylesheet" href="/style.css"><link rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -16,7 +16,7 @@
 	<div class="section">
 		<div class="container">
 			<div class="Start">
-				<form action="/log.php" method="post">
+				<form action="log.php" method="post">
 					<div class="section text-center">
 					<h1 class="mb-4 pb-3">Log In</h1>
 					<div class="form-group">

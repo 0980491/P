@@ -19,10 +19,10 @@ $_SESSION['pass'] = $pass;
 <head>
   <meta charset="UTF-8">
   <title>In</title>
-  <link rel="shortcut icon" href="/padlock.png">
-  <link rel='stylesheet' href='/bootstrap.css'>
-  <link rel='stylesheet' href='/unicors.css'><link rel="stylesheet">
-  <link rel="stylesheet" href="/style.css"><link rel="stylesheet">
+  <link rel="shortcut icon" href="img/padlock.png">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -42,7 +42,7 @@ $_SESSION['pass'] = $pass;
 		?>
 
 
-<form action="/generate.php" method="post">
+<form action="generate.php" method="post">
 	<center><button type="submit" value="Generate new password" name="btngenerar">Generate new password</button></center>
 </form>
 </body>

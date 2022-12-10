@@ -21,14 +21,14 @@ $_SESSION['pass'] = $pass;
   <link rel="shortcut icon" href="/padlock.png">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet">
-  <link rel="stylesheet" href="/style.css"><link rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet">
 </head>
 <body>
 	
 <div class="section">
 		<div class="container">
 			<div class="Start">
-                <form action="/log.php" method="post">
+                <form action="log.php" method="post">
                     <div class="section text-center">
                         <h1 class="mb-4 pb-3">Generate new password</h1>
                         <div class="form-group">
