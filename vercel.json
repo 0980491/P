@@ -1,0 +1,19 @@
+{
+    "functions": {
+      "api/*.php": {
+        "runtime": "vercel-php@0.5.2"
+      }
+    },
+    "routes": [
+      { "src": "/in.php",  "dest": "/api/in.php" },
+      { "src": "/cloud",  "dest": "bkdss8husughxwqvm3ju-mysql.services.clever-cloud.com" },
+      { "src": "/log.php",  "dest": "/api/log.php" },
+      { "src": "/generate.php",  "dest": "/api/generate.php" },
+      { "src": "/conexion.php",  "dest": "/api/conexion.php" },
+      { "src": "/style.css",  "dest": "style.css" },
+      { "src": "/padlock.png",  "dest": "img/padlock.png" },
+      { "src": "/bootstrap.css",  "dest": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" },
+      { "src": "/unicors.css",  "dest": "https://unicons.iconscout.com/release/v2.1.9/css/unicons.css" },
+      { "src": "/(.*)",  "dest": "/api/index.php" }
+    ]
+  }
